@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- Importation de la police Inter, des icônes de Font Awesome et de la libraire aos pour les scrolls-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+
+<body>
+
+    <!-- =================================== Navigation ====================================== -->
+
+    <nav class="nav-container">
+        <div class="nav-header">
+        <img src="assets/nav/logoVH.png" alt="LogoVH" class="nav-logo" />
+            <!-- Bouton hamburger pour mobile -->
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+
+        <!-- Liens de navigation -->
+        <div class="nav-links" id="nav-links">
+            <a href="#bio" class="nav-link">Profil</a>
+            <a href="#experiences" class="nav-link">Expériences</a>
+            <a href="#skills" class="nav-link">Compétences</a>
+            <a href="#education" class="nav-link">Formation</a>
+            <a href="#projects" class="nav-link">Projets</a>
+        </div>
+    </nav>
+  
+    <!-- ===================================== Section Bio =================================== -->
+
+    <section id="bio" class="section">
+
+        <!-- Ajout d'un arrière plan de particule -->
+        <div id="particles-js"></div>
+
+        <div class="bio-content">
+
+            <div class="profile-section">
+                <img src="assets/bio/PhotoPerso.jpg" alt="Photo de profil" class="profile-img">
+                <h1>Victor Hu</h1>
+                <h2>Ingénieur Data</h2>
+
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/victor-hu-1407dm/" class="social-link" ><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/VictorPro07" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="mailto:victor.hu.pro@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        
+            <div class="bio-text">
+                <h3>Mon profil</h3>
+                <p class="typewriter">Diplômé de l'IMT Nord Europe, je mets mes compétences analyse de données et intelligence artificielle. J'ai suivi une formation rigoureuse en science des données combiner à des expériences terrain concrètes. 
+                </p>
+                
+                <a href="assets/CV_Victor_Hu.pdf" download>
+                    <button class="cv-button">
+                        <span class="button-content">
+                            <i class="fa fa-download"></i>
+                            <span>Download CV</span>
+                        </span>
+                    </button>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- =================================== Section Expériences ============================== -->
+
+    <section id="experiences" class="section">
+    
+        <!-- Arrière-plan des horloges-->
+        <div class="clock-bg">
+            <div class="clock" style="top:18%; left:30%; width:60px; height:60px;">
+            <div class="clock-face">
+                <div class="hand hour-hand"></div>
+                <div class="hand min-hand"></div>
+                <div class="hand second-hand"></div>
+            </div>
+            </div>
+            <div class="clock" style="top:65%; left:62%; width:120px; height:120px;">
+            <div class="clock-face">
+                <div class="hand hour-hand"></div>
+                <div class="hand min-hand"></div>
+                <div class="hand second-hand"></div>
+            </div>
+            </div>
+            <div class="clock" style="top:75%; left:30%; width:100px; height:100px;">
+            <div class="clock-face">
+                <div class="hand hour-hand"></div>
+                <div class="hand min-hand"></div>
+                <div class="hand second-hand"></div>
+            </div>
+            </div>
+        </div>
+
+        <h2 class="section-title">Expériences</h2>
+        
+        <div class="timeline-container">
+            <div class="timeline-wrapper">
+                <div class="timeline-exp">
+                    <!-- Timeline Line (ligne fluo traversant les cartes d'exp)-->
+                    <div class="timeline-line">
+                    </div>
+                    
+                    <!-- Expérience 1 -->
+                    <div class="experience-card">
+                        <div class="company-logo" >
+                            <img src="assets/experiences/Logo_TotalEnergies.svg.png" alt="TotalEnergies">
+                        </div>
+                        <div class="card-content">
+                            <h3>Assistant - Chef de projet</h3>
+                            <p class="duration">Juin 2022 - Septembre 2022</p>
+                            <p class="description">
+                                💻Conception et déploiement d'un outil collaboratif<br/>
+                                📑Digitalisation et optimisation des processus
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Expérience 2 -->
+                    <div class="experience-card">
+                        <div class="company-logo" >
+                            <img src="assets/experiences/Logo_Vinci.svg.webp" alt="VINCI">
+                        </div>
+                        <div class="card-content">
+                            <h3>Data Analyst</h3>
+                            <p class="duration">Avril 2023 - Septembre 2023</p>
+                            <p class="description">
+                                ⚙️ Extraction et structuration de données <br/>
+                                📊 Création de tableaux de bord interactifs (Power BI) <br/>
+                                🛠️ Optimisation de la maintenance préventive <br/>
+                                📧 Classification automatique de mails
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Expérience 3-->
+                    <div class="experience-card">
+                        <div class="company-logo" >
+                            <img src="assets/experiences/Thales_Logo.svg.png" alt="THALES">
+                        </div>
+                        <div class="card-content">
+                            <h3>Data Scientist</h3>
+                            <p class="duration">Mars 2024- Septembre 2024</p>
+                            <p class="description">
+                                🤖 Conception d'une solution RAG <br/>
+                                📑 Analyse et traitement automatique de texte <br/>
+                                📊 Benchmarking des outils d’IA </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =================================== Section Compétences ============================== -->
+
+    <section id="skills" class="section">
+          <!-- Élément du luminaire -->
+        <div class="lamp">
+            <img src="assets/others/ceiling-lamp.png" alt="Luminaire" class="lamp-icon">
+            <div class="beam"></div>
+        </div>
+
+        <h2 class="section-title">Mes Compétences</h2>
+        
+
+        <!-- 4 Catégories de compétences -->
+        <div class="skills-categories">
+          <button type="button" class="category-item active" data-category="dev">Programmation</button>
+          <button type="button" class="category-item" data-category="tools">Outils</button>
+          <button type="button" class="category-item" data-category="ia">Machine Learning</button>
+          <button type="button" class="category-item" data-category="languages">Langues</button>
+        </div>
+        
+
+        
+        <div class="skills-grids">
+
+
+             <!-- Catégorie Programmation -->
+            <div class="skills-grid visible" data-category="dev">
+                <div class="skill-item">
+                    <img src="assets/skills/dev/python.webp" class="skills-logo">
+                    <span>Python</span>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/skills/dev/serveur-sql.png" class="skills-logo">
+                    <span>SQL</span>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/skills/dev/git.png" class="skills-logo">
+                <span>Git</span>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/skills/dev/github.png" class="skills-logo">
+                <span>GitHub</span>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/skills/dev/c++.png" class="skills-logo">
+                <span>C++</span>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/skills/dev/bash.png" class="skills-logo">
+                <span>Bash</span>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/skills/dev/linux.png" class="skills-logo">
+                <span>Linux</span>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/skills/dev/docker.webp" class="skills-logo">
+                <span>Docker</span>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/skills/dev/HTML5.png" class="skills-logo">
+                    <span>HTML</span>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/skills/dev/CSS3.png" class="skills-logo">
+                <span>CSS</span>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/skills/dev/Javascript.png" class="skills-logo">
+                <span>JavaScript</span>
+                </div>
+            </div>
+      
+            <!-- Catégorie Langues -->
+            <div class="skills-grid" data-category="languages">
+                <div class="skill-item">
+                    <img src="assets/skills/languages/france.png" class="skills-logo">
+                <span>Français</span>
+                </div>
+
+                <div class="skill-item">
+                    <img src="assets/skills/languages/united-kingdom.png" class="skills-logo">
+                    <span>Anglais</span>
+                </div>
+
+                <div class="skill-item">
+                    <img src="assets/skills/languages/china.png" class="skills-logo">
+                    <span>Mandarin</span>
+                </div>
+            </div>
+
+            <!-- Catégorie Outils -->
+            <div class="skills-grid" data-category="tools">
+                <div class="skill-item">
+                    <img src="assets/skills/tools/vscode.png" class="skills-logo">
+                <span>VsCode</span>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/skills/tools/powerbi.png" class="skills-logo">
+                <span>PowerBI</span>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/skills/tools/excel.png" class="skills-logo">
+                <span>Excel</span>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/skills/tools/word.png" class="skills-logo">
+                <span>Word</span>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/skills/tools/powerpoint.png" class="skills-logo">
+                <span>PowerPoint</span>
+                </div>
+                <div class="skill-item">
+                    <img src="assets/skills/tools/copilot.png" class="skills-logo">
+                <span>Copilot</span>
+                </div>
+            </div>
+            
+            <!-- Catégorie IA -->
+            <div class="skills-grid" data-category="ia">
+                <div class="skill-item">
+                    <img src="assets/skills/ia/python.webp" class="skills-logo">
+                <span>Python</span>
+                </div>
+
+                <div class="skill-item">
+                    <img src="assets/skills/ia/tensorflow.png" class="skills-logo">
+                    <span>Tensorflow</span>
+                </div>
+
+                <div class="skill-item">
+                    <img src="assets/skills/ia/pytorch.png" class="skills-logo">
+                    <span>Pytorch</span>
+                </div>
+
+                <div class="skill-item">
+                    <img src="assets/skills/ia/scikit.png" class="skills-logo">
+                    <span>Scikit-Learn</span>
+                </div>
+
+                <div class="skill-item">
+                    <img src="assets/skills/ia/pandas.svg" class="skills-logo">
+                    <span>Pandas</span>
+                </div>
+
+
+                <div class="skill-item">
+                    <img src="assets/skills/ia/git.png" class="skills-logo">
+                    <span>Git</span>
+                </div>
+
+                <div class="skill-item">
+                    <img src="assets/skills/ia/github.png" class="skills-logo">
+                    <span>Github</span>
+                </div>
+
+                <div class="skill-item">
+                    <img src="assets/skills/ia/opencv.png" class="skills-logo">
+                    <span>OpenCv</span>
+                </div>
+            </div>
+
+        </div>
+      </section>
+
+
+     <!-- ================================== Section Éducation ================================ -->
+
+    <section id="education" class="section">
+        <!-- Ajout d'un arrière plan de avec apparition d'équation -->
+        <canvas id="equation-canvas"></canvas>
+
+        <h2 class="section-title">Formation</h2>
+
+        <div class="timeline">
+            
+                        <!-- Bonhomme animé -->
+            <div id="anim-guy">
+                <!-- Remplace l'image par ton asset, par exemple "anim-guy.png" -->
+                <img src="assets/education/student.png" alt="Student" />
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon"><i class="fa fa-graduation-cap"></i></div>
+                    <div class="timeline-content">
+                        <!-- Logo IMT Nord Europe -->
+                        <img src="assets/education/Logo_IMT_Nord_Europe.png" alt="Logo IMT Nord Europe" class="school-logo">
+                        <h3>Formation Ingénieur</h3>
+                        <h4>IMT NORD EUROPE<br/>&thinsp;09/2021 - 09/2024</h4>
+                        <p>Master en spécialisation numérique (Data Science, IA) :</p>
+                        <ul>
+                            <li> Apprentissage des méthodes d'analyse de données et de visualisation (régression,
+                                clustering, recherche par similarités, ACP, etc...)</li>
+                            <li> Manipulation de grandes quantités de données</li>
+                            <li> Techniques d'apprentissage automatique (apprentissage profond, computer
+                                vision, NLP, réseaux de neurones).</li>
+                        </ul>
+                    </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon"><i class="fa-solid fa-plane"></i></div>
+                    <div class="timeline-content">
+                        <!-- Logo SJTU -->
+                        <img src="assets/education/Sjtu-logo-standard-red.png" alt="Logo SJTU" class="school-logo">
+                        <h3>SJTU Graduate-Level Exchange Program</h3>
+                        <h4>上海交通大学 (SJTU)<br/>&thinsp;09/2023 - 01/2024</h4>
+                        <p>Formation en informatique et électronique</p>
+                        <ul>
+                            <li>Implémentation d'algorithmes performants.</li>
+                            <li>Exploration des processeurs RISC V (processeurs à cycle unique, processeurs à
+                                pipeline, gestion de la mémoire virtuelle et étude des systèmes de cache)</li>
+                        </ul>
+                    </div>
+            </div>
+
+            <div class="timeline-item">
+                <div class="timeline-icon"><i class="fa-solid fa-school"></i></div>
+                    <div class="timeline-content">
+                        <!-- Logo Lycée Carnot -->
+                        <img src="assets/education/lycee_carnot_paris_logo.jpg" alt="Logo Lycée Carnot" class="school-logo">
+                        <h3>Classes préparatoires aux grandes écoles (CPGE)</h3>
+                        <h4>Lycée Carnot • Paris<br/>&thinsp;09/2018 - 09/2021</h4>
+                        <p>PCSI-PC </p>
+                    </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <!-- ===================================  Section Projets =================================== -->
+
+    <section id="projects" class="section">
+        <!-- arrière-plan de défilement (matrice) binaire -->
+        <div id="matrix-container">
+            <canvas id="matrix"></canvas>
+        </div>
+        
+        <h2 class="section-title">Projets</h2>
+    
+        <p class="section-intro">
+        J'aime créer des choses. Voici une sélection de projets sur lesquels j'ai travaillé au fil des années.
+        </p>
+        
+
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="assets/projects/forest_fire.png" class="projects-icon" >
+                <h3 class="project-title">
+                ForestSmokeDetection
+                </h3>
+                <p class="project-description">
+                    Un projet visant à détecter rapidement les départs d'incendie (détection de fumée) en milieu forestier.
+                </p>
+                <p class="project-date">12-2024</p>
+
+                
+                <div class="project-run">
+                     <!-- Bouton play vert positionné en bas à droite -->
+                    <a href="https://github.com/VictorPro07/ForestSmokeDetection" target="_blank" class="play-button">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 17.09 18.64" width="24" height="24">
+                            <g>
+                            <path fill="rgba(3, 169, 64, 0.9)" d="M14.55 7.52 4.62 1.78A2.08 2.08 0 0 0 1.5 3.58V15.05a2.08 2.08 0 0 0 3.12 1.8l9.93-5.73A2.08 2.08 0 0 0 14.55 7.52Z"></path>
+                            </g>
+                        </svg>
+                    </a>
+
+                    <!-- Terminal CMD "run the project"-->
+                    <div class="content-terminal">
+                        <div class="terminal">
+                            <hgroup class="headT">
+                                <p class="titleT">
+                                    <svg
+                                        width="16px"
+                                        height="16px"
+                                        aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24"
+                                        stroke-linejoin="round"
+                                        stroke-linecap="round"
+                                        stroke-width="2"
+                                        stroke="currentColor"
+                                        fill="none"
+                                        >
+                                        <path
+                                            d="M7 15L10 12L7 9M13 15H17M7.8 21H16.2C17.8802 21 18.7202 21 19.362 20.673C19.9265 20.3854 20.3854 19.9265 20.673 19.362C21 18.7202 21 17.8802 21 16.2V7.8C21 6.11984 21 5.27976 20.673 4.63803C20.3854 4.07354 19.9265 3.6146 19.362 3.32698C18.7202 3 17.8802 3 16.2 3H7.8C6.11984 3 5.27976 3 4.63803 3.32698C4.07354 3.6146 3.6146 4.07354 3.32698 4.63803C3 5.27976 3 6.11984 3 7.8V16.2C3 17.8802 3 18.7202 3.32698 19.362C3.6146 19.9265 4.07354 20.3854 4.63803 20.673C5.27976 21 6.11984 21 7.8 21Z"
+                                        ></path>
+                                    </svg>
+                                    Terminal
+                                </p>
+                            </hgroup>
+                        
+                                <div class="bodyT">
+                                    <pre class="pre">          <code>-&nbsp;</code>
+                                        <code>run&nbsp;</code>
+                                        <code class="cmd" data-cmd="the project"></code>
+                                    </pre>
+                                </div>
+                        </div>
+
+                    </div>
+                    
+                      
+                </div>
+                
+            </div>
+
+            
+
+        </div>
+    </section>
+
+    <!-- ==================================== Barre de fin ====================================== -->
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <p>Victor Hu <br/>&copy; <span id="current-year"></span></p>
+            </div>
+            <div class="footer-section">
+                <p>Licence <a href="https://en.wikipedia.org/wiki/MIT_License" class="license-link">MIT</a></p>
+            </div>
+        </div>
+    </footer>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+</html>
