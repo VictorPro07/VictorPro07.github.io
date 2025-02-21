@@ -89,7 +89,7 @@
 
     // Effet machine à écrire
     document.addEventListener('DOMContentLoaded', () => {
-        const text = "Diplômé de l'IMT Nord Europe, je mets mes compétences analyse de données et intelligence artificielle. J'ai suivi une formation rigoureuse en science des données combiner à des expériences terrain concrètes.";
+        const text = "Diplômé de l'IMT Nord Europe (Mines de Douai). J'ai suivi une formation rigoureuse en science des données combiner à des expériences terrain concrètes. Ainsi,  je recherche un poste dans le domaine de la data.";
         const typewriter = document.querySelector('.typewriter');
         
         // Effacer le texte initial
