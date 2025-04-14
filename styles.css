@@ -163,7 +163,7 @@ nav {
 }
 
 .profile-img {
-    width: 160px;
+    width: 150px;
     height: 160px;
     border-radius: 50%;
     border: 2px solid var(--nav-gray);
